@@ -29,13 +29,13 @@ function generateChart() {
             datasets: [{
                 label: 'Internal',
                 data: internalScores,
-                backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                backgroundColor: 'rgba(192, 192, 192, 0.2)',
                 borderColor: 'blue',
                 borderWidth: 1
             }, {
                 label: 'External',
                 data: externalScores,
-                backgroundColor: 'rgba(255, 0, 0, 0.2)',
+                backgroundColor: 'rgba(255, 215, 0, 0.2)',
                 borderColor: 'red',
                 borderWidth: 1
             }]
